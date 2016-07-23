@@ -8,5 +8,8 @@ setup(
 	description='twitch bot for scraping youtube links and hosting them',
 	packages=find_packages(),
 	install_requires=[
+		'gevent',
+		'girc',
+		'flask',
 	],
 )
